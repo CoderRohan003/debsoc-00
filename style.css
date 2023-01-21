@@ -1,0 +1,124 @@
+*{
+    background-color: rgb(8, 93, 8);
+    color: white ;    
+    
+}
+
+h1{
+    font-family: "cascadia code";
+    background-color: white;
+    text-align: center;
+    border-width: 1px;
+    border-color: red;
+    border-style: dashed;
+    color: black;
+transition: all 0.5s linear;
+}
+h1:hover{
+    color: green;
+    background-color: yellow;
+}
+#first{
+    
+    padding: 20px;
+    border-width: 4px;
+    border-color: red;
+    border-style: solid;
+    height: 90vw;
+    
+    
+}
+
+#intro{
+    
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    
+}
+#body{
+    
+    text-align: left;
+    font-size: 23px;
+    line-height: 30px;
+    padding-top: 180px;
+    color: white;
+    padding-left: 10px;
+    
+}
+.open{
+    
+    text-align: left;
+    font-size: 23px;
+    line-height: 30px;
+    color: white;
+    padding-left: 10px;
+}
+#open{
+    
+    text-align: left;
+    font-size: 23px;
+    line-height: 30px;
+    color: white;
+    padding-left: 10px;
+}
+#web{
+    color: blue;
+    background-color: white;
+}
+#web:hover{
+    color: blueviolet;
+    background-color: azure;
+}
+#photo{
+    height: 150px;
+    width: 10px;
+    object-fit: cover;
+    
+}
+#photo1 {
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
+    position: absolute;
+    top: 120px;
+    right: 15px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    
+}
+#contain{
+    object-fit: cover;
+}
+#back{
+    height: 350px;
+    width: 200px;
+    object-fit: cover;
+    position: absolute;
+    top: 120px;
+    right: 25px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+}
+#last{
+    
+    text-align: right;
+    font-size: 20px;
+    line-height: 18px;
+    color: white;
+
+}
+a{
+    color: white;
+    transition: all 0.4s linear;
+}
+a:hover{
+    color: darkmagenta;
+    background-color: white;
+}
+
